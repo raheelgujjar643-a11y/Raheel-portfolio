@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Muhammad Raheel's developer portfolio, skills and projects.">
+  <title>Muhammad Raheel | Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="#home" class="logo">MR<span>.</span></a>
+    <button class="menu-btn" id="menuBtn" aria-label="Toggle navigation"
+      aria-expanded="false">☰</button>
+    <div class="nav-links" id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact" class="nav-cta">Contact Me</a>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-content">
+        <p class="eyebrow"><span class="status-dot"></span> SOFTWARE ENGINEERING STUDENT</p>
+        <h1>Hi, I'm <span class="gradient-text">Muhammad Raheel</span></h1>
+        <h2>Aspiring Software Developer</h2>
+        <p class="hero-description">
+          I enjoy solving problems, learning new technologies,
+          and building useful digital experiences one step at a time.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">Explore My Work ↗</a>
+          <a href="#contact" class="btn btn-secondary">Let's Connect</a>
+        </div>
+        <p class="hero-note">Always learning. Always building.</p>
+      </div>
+      <div class="hero-card">
+        <div class="code-window">
+          <div class="window-dots"><i></i><i></i><i></i></div>
+          <pre><code><span class="code-purple">const</span> developer = {
+  name: <span class="code-green">"Muhammad Raheel"</span>,
+  role: <span class="code-green">"Software Developer"</span>,
+  learning: [
+    <span class="code-green">"C++"</span>,
+    <span class="code-green">"HTML & CSS"</span>,
+    <span class="code-green">"JavaScript"</span>
+  ],
+  passion: <span class="code-green">"Building things"</span>
+};</code></pre>
+          <div class="code-footer"><span>●</span> Ready to build something great</div>
+        </div>
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <p class="eyebrow">GET TO KNOW ME</p>
+      <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+      <div class="about-card">
+        <p>
+          I'm Muhammad Raheel, a Software Engineering student working
+          toward becoming a professional software developer. I'm building
+          my foundation in programming and web development through
+          consistent practice and hands-on projects.
+        </p>
+        <p>
+          My goal is to turn ideas into reliable software, keep improving
+          my problem-solving skills, and contribute to real-world projects.
+        </p>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <p class="eyebrow">WHAT I'M LEARNING</p>
+      <h2 class="section-title">My <span class="gradient-text">Skills</span></h2>
+      <div class="skill-grid">
+        <article class="skill-card">
+          <span class="skill-icon">C++</span>
+          <h3>C++</h3>
+          <p>Programming fundamentals and OOP</p>
+          <div class="skill-track"><span style="width: 55%"></span></div>
+          <small>Learning</small>
+        </article>
+        <article class="skill-card">
+          <span class="skill-icon">H</span>
+          <h3>HTML</h3>
+          <p>Web page structure and semantics</p>
+          <div class="skill-track"><span style="width: 45%"></span></div>
+          <small>Learning</small>
+        </article>
+        <article class="skill-card">
+          <span class="skill-icon">C</span>
+          <h3>CSS</h3>
+          <p>Styling and responsive layouts</p>
+          <div class="skill-track"><span style="width: 30%"></span></div>
+          <small>Learning</small>
+        </article>
+        <article class="skill-card">
+          <span class="skill-icon">JS</span>
+          <h3>JavaScript</h3>
+          <p>Interactive web experiences</p>
+          <div class="skill-track"><span style="width: 15%"></span></div>
+          <small>Next to learn</small>
+        </article>
+      </div>
+      <p class="section-note">These indicators represent my current learning stage, not formal proficiency scores.</p>
+    </section>
+
+    <section class="section" id="projects">
+      <p class="eyebrow">THINGS I'M BUILDING</p>
+      <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-visual visual-one"><span>01</span><b>SMART PARKING</b></div>
+          <div class="project-info">
+            <p class="project-type">C++ · OOP</p>
+            <h3>Smart Parking System</h3>
+            <p>A console-based project to manage vehicles, parking duration and parking fees.</p>
+            <span class="project-status">In progress</span>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-visual visual-two"><span>02</span><b>MY PORTFOLIO</b></div>
+          <div class="project-info">
+            <p class="project-type">HTML · CSS · JS</p>
+            <h3>Developer Portfolio</h3>
+            <p>A responsive personal website to introduce myself and showcase my learning journey.</p>
+            <span class="project-status">Building now</span>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-visual visual-three"><span>03</span><b>YOUR NEXT IDEA</b></div>
+          <div class="project-info">
+            <p class="project-type">Future project</p>
+            <h3>More Coming Soon</h3>
+            <p>I'll add new projects here as my coding skills and experience grow.</p>
+            <span class="project-status">Planned</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <p class="eyebrow">HAVE AN IDEA?</p>
+      <h2 class="section-title">Let's Build Something <span class="gradient-text">Great</span></h2>
+      <p>I'm working toward new opportunities and always open to connecting with fellow learners and developers.</p>
+      <a class="btn btn-primary" href="mailto:YOUR_EMAIL@example.com">Email Me ↗</a>
+      <p class="section-note">Replace the example email with your real professional email before publishing.</p>
+    </section>
+  </main>
+
+  <footer>
+    <a href="#home" class="logo">MR<span>.</span></a>
+    <p>Designed & coded by Muhammad Raheel</p>
+    <p>© <span id="year"></span> · Keep learning, keep building.</p>
+  </footer>
+
+</body>
+</html>
